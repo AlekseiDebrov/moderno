@@ -361,3 +361,61 @@
         }
     }
 }
+
+
+// <!-- Advantages Advantages advantages advantages advantages advantages advantages advantages advantages
+//     advanrages advantages advantages advantages advantages advantages advantages advantages advantages 
+//     advantages advantages advantages advantages advantages advantages advantages advantages advantages -->
+
+
+
+.advantages{
+    background-color: $bg;
+    padding: 80px 0;
+
+}
+.advantages__title{
+    color: #fff;
+}
+.advantages__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.advantages__item{
+    max-width: 370px;
+    text-align: center;
+    padding: 0px 15px;
+    
+    &:hover{
+        .advantages__item-images{
+            background-color: $green;
+           
+            transition: all .7s;
+            
+        }
+        .advantages__item-title{
+            color: $green;
+            transition: all 1s;
+        }
+
+    }
+    &-images{
+        width: 114px;
+        height: 114px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto 30px;
+
+    }
+    &-title{
+        margin-bottom: 25px;
+        font-size: 24px;
+        color: #fff;
+
+
+    }
+}
