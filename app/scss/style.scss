@@ -480,3 +480,46 @@
 
     }
 }
+
+.tutorial {
+    padding: 60px 0px 120px;
+    background-color: rgba(250, 235, 215, 0.445);
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+    &__item {
+        max-width: 370px;
+        width: 100%;
+        
+        box-shadow: 4px 4px 4px rgba(25, 25, 25, 0.273);
+        opacity: 0.8;
+        
+    
+
+    &-images {
+        min-height: 270px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-width: 290px;
+        
+
+    }
+
+    &-title {
+        background-color: rgb(239, 239, 239);
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        padding: 30px 10px;
+        
+        
+        color: $bg;
+
+    }
+}
+}
