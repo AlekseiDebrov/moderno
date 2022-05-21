@@ -179,7 +179,8 @@
         &+button {
             margin-left: 10px;
         }
-        &.mixitup-control-active{
+
+        &.mixitup-control-active {
             background-color: $red;
             color: #fff;
         }
@@ -273,8 +274,9 @@
     &-auto {
         display: flex;
         align-items: center;
+
         .photo {
-           margin-right: 8px;
+            margin-right: 8px;
             width: 30px;
             height: 30px;
             background-position: center;
@@ -283,8 +285,9 @@
             background-size: cover;
 
         }
-        span{
-        font-size: 14px;
+
+        span {
+            font-size: 14px;
         }
     }
 
@@ -304,15 +307,16 @@
 
 }
 
-.products__inner-box{
+.products__inner-box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.products__bottom-btn{
+.products__bottom-btn {
     text-align: center;
-    button{
+
+    button {
         margin: 45px 5px 0px;
         box-shadow: 1px 1px 4px rgba(25, 25, 25, 0.273);
         border: none;
@@ -321,11 +325,12 @@
         cursor: pointer;
         padding: 20px 30px;
         border-radius: 4px;
-        &.mixitup-control-active{
+
+        &.mixitup-control-active {
             background-color: $red;
             color: #fff;
         }
-        
+
 
     }
 
@@ -335,21 +340,25 @@
 
 
 
-.product-slider{
+.product-slider {
     padding: 110px 0px 120px;
-    .slick-dots{
+
+    .slick-dots {
         text-align: center;
-        li{
+
+        li {
             display: inline-block;
             margin-left: 3px;
             margin-right: 3px;
             cursor: pointer;
-            &.slick-active{
-                button{
+
+            &.slick-active {
+                button {
                     background-color: rgb(178, 178, 99);
                 }
             }
-            button{
+
+            button {
                 border-radius: 50%;
                 background-color: antiquewhite;
                 border: none;
@@ -369,38 +378,43 @@
 
 
 
-.advantages{
+.advantages {
     background-color: $bg;
     padding: 80px 0;
 
 }
-.advantages__title{
+
+.advantages__title {
     color: #fff;
 }
-.advantages__inner{
+
+.advantages__inner {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
 }
-.advantages__item{
+
+.advantages__item {
     max-width: 370px;
     text-align: center;
     padding: 0px 15px;
-    
-    &:hover{
-        .advantages__item-images{
+
+    &:hover {
+        .advantages__item-images {
             background-color: $green;
-           
+
             transition: all .7s;
-            
+
         }
-        .advantages__item-title{
+
+        .advantages__item-title {
             color: $green;
             transition: all 1s;
         }
 
     }
-    &-images{
+
+    &-images {
         width: 114px;
         height: 114px;
         background-color: #fff;
@@ -411,11 +425,58 @@
         margin: 0px auto 30px;
 
     }
-    &-title{
+
+    &-title {
         margin-bottom: 25px;
         font-size: 24px;
         color: #fff;
 
+
+    }
+}
+
+// author author author author author author author author author author author author author author author
+// author author author author author author author author author author author author author author author
+// author author author author author author author author author author athor author author
+
+.author {
+    background-image: url(../images/Author.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__box {
+        min-width: 640px;
+        min-height: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+        opacity: 0.9;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px rgba(25, 25, 25, 0.273);
+
+
+    }
+
+    &__title {
+        font-size: 25px;
+        color: #fff;
+        max-width: 270px;
+        margin-right: 45px;
+        font-weight: 700;
+    }
+
+    &__link {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 14px 30px;
+        background-color: #fff;
+        box-shadow: 4px 4px 4px rgba(25, 25, 25, 0.273);
 
     }
 }
